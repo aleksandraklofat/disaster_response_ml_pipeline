@@ -18,6 +18,16 @@ Following libraries are needed in order for the web app to run:
 - plotly
 - flask
 
+## Components of the repository
+
+### app
+
+The app contains files necessary to run the webapplication (Flask)
+
+### data
+
+This file contains the ETL python pipeline for the data. It is a data extracting, cleaning and processing piepline. It also contains the data as csv files. Data can be found by Figure Eight: 
+
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
