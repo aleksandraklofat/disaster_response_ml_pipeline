@@ -26,18 +26,15 @@ The app contains files necessary to run the webapplication (Flask)
 
 ### data
 
-This file contains the ETL python pipeline for the data. It is a data extracting, cleaning and processing piepline. It also contains the data as csv files. Data can be found by Figure Eight: 
+This file contains the ETL pipeline for the data. It is a data extracting, cleaning and processing pipeline. It also contains the data as csv files. Data can be found by Figure Eight: https://www.figure-eight.com/
 
+### models
 
-### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+The file models contains the training file for the machine learning pipeline (ML Pipeline). It loads the data from the SQLite database and trains and tunes the model using GridSeachCV. The pickle file contains the saved model.
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+### notebooks
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
+Jupyter notebooks contain preparatory work for the app. First noetebook contains data preprocessing (ETL pipeline). Second notebook contains the ML pipeline. The notebooks are not the same as the app. 
 
-3. Go to http://0.0.0.0:3001/
+## Licensing
+Parts of the code for this project were provided by Udacity. The data for this project comes from Figure Eight. Otherwise the project is freely usable. 
