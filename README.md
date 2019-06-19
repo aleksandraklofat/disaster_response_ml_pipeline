@@ -1,5 +1,7 @@
 # Disaster Response Pipeline Project
 
+For this project I created NLP(Natural Language Processing) Pipelines in order to process and categorize messages sent during various natural disaster events. It is a project requierd by Udacity in order to get Data Science Nanodegree.
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
